@@ -12,9 +12,10 @@ Lateral Vehicle Control without Explicit Supervision**.
 
 ## Installation
 
-This repository requires Python 3.7 for interacting with CARLA 9.10, and uses `pip` for managing the packages. To create a `pip` virtual environment and load the necessary packages in order to execute this repository, please use the following command:
+The main `vehicle control` component of this repository requires Python 3.7 for interacting with CARLA 9.10, and uses `pip` for managing the packages. To create a `pip` virtual environment and load the necessary packages in order to execute this repository, please use the following command:
 
 ```
+cd vehicle-control/
 python3 -m venv env                 # Create virtual environment
 source env/bin/activate             # Activate virtual environment
 pip install -r requirements.txt     # Load packages from requirements.txt
@@ -109,7 +110,7 @@ By default, our configuration collects data to enable all configurations of our 
 
 MPC helps us to retrieve steering angles with respect to all camera positions. If `GT Trajectory` will be used for training, then one can directly execute MPC across the data collected from the simulator. 
 
-If it is desired to train our `VO + Synthesized` method, then it is required to first execute the visual odometry component. For this, please refer to [here](orb-slam2/README.md). This will output the trajectories for each camera position. In order to bring them into the required data format to execute MPC, we provide [this](orb-slam2/pose_processing.py) script.
+If it is desired to train our `VO + Synthesized` method, then it is required to first execute the visual odometry component. For this, please refer to [here](orb-slam2/README.md). This will output the trajectories for each camera position.
 
 ### Model Predictive Control - MPC (Offline mode / without running CARLA Simulator)
 
