@@ -1,39 +1,3 @@
-# Monocular Depth Estimation
-
-The following method is used for monocular depth estimation required for our view synthesis component:
-
-> **Digging into Self-Supervised Monocular Depth Prediction**
->
-> [Clément Godard](http://www0.cs.ucl.ac.uk/staff/C.Godard/), [Oisin Mac Aodha](http://vision.caltech.edu/~macaodha/), [Michael Firman](http://www.michaelfirman.co.uk) and [Gabriel J. Brostow](http://www0.cs.ucl.ac.uk/staff/g.brostow/)
->
-> [ICCV 2019 (arXiv pdf)](https://arxiv.org/abs/1806.01260)
-
-## Modifications
-
-Please see the patch file for all the modifications applied.
-
-Please cite the following paper:
-
-```
-@article{monodepth2,
-  title     = {Digging into Self-Supervised Monocular Depth Prediction},
-  author    = {Cl{\'{e}}ment Godard and
-               Oisin {Mac Aodha} and
-               Michael Firman and
-               Gabriel J. Brostow},
-  booktitle = {The International Conference on Computer Vision (ICCV)},
-  month = {October},
-year = {2019}
-}
-```
-
-
-## License
-Copyright © Niantic, Inc. 2019. Patent Pending.
-All rights reserved.
-Please see the [license file](LICENSE) for terms.
-
-
 # Image Rendering Script
 
 ## Prerequisites
@@ -112,3 +76,38 @@ Currently only the center camera is used for image rendering.
 │            ├── 00001.png   
 └──          └── ...              
 ```
+
+# Monocular Depth Estimation
+
+The following method is used for monocular depth estimation required for our view synthesis component:
+
+> **Digging into Self-Supervised Monocular Depth Prediction**
+>
+> [Clément Godard](http://www0.cs.ucl.ac.uk/staff/C.Godard/), [Oisin Mac Aodha](http://vision.caltech.edu/~macaodha/), [Michael Firman](http://www.michaelfirman.co.uk) and [Gabriel J. Brostow](http://www0.cs.ucl.ac.uk/staff/g.brostow/)
+>
+> [ICCV 2019 (arXiv pdf)](https://arxiv.org/abs/1806.01260)
+
+## Modifications
+
+Please see the patch file for all the modifications applied.
+
+Please cite the following paper:
+
+```
+@article{monodepth2,
+  title     = {Digging into Self-Supervised Monocular Depth Prediction},
+  author    = {Cl{\'{e}}ment Godard and
+               Oisin {Mac Aodha} and
+               Michael Firman and
+               Gabriel J. Brostow},
+  booktitle = {The International Conference on Computer Vision (ICCV)},
+  month = {October},
+year = {2019}
+}
+```
+
+
+## License
+Copyright © Niantic, Inc. 2019. Patent Pending.
+All rights reserved.
+Please see the [license file](LICENSE) for terms.
