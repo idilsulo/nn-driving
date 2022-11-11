@@ -6,7 +6,7 @@ Lateral Vehicle Control without Explicit Supervision**.
 ![Overview of framework](/assets/images/overview-diagram.png)
 
 <div align="center">
-<a href="./assets/supplementary/7752_supplementary.pdf">Supplementary</a> | <a href="./assets/supplementary/video.mp4">Video</a>
+<a href="./assets/supplementary/supplementary.pdf">Supplementary</a> | <a href="./assets/supplementary/video.mp4">Video</a>
 </div>
 
 
