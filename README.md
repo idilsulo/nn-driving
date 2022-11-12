@@ -112,6 +112,8 @@ MPC helps us to retrieve steering angles with respect to all camera positions. I
 
 If it is desired to train our `VO + Synthesized` method, then it is required to first execute the visual odometry component. For this, please refer to [here](orb-slam2/README.md). This will output the trajectories for each camera position.
 
+Our Model Predictive Control implementation is adapted from [this](https://github.com/WuStangDan/mpc-course-assignments/) repository.
+
 ### Model Predictive Control - MPC (Offline mode / without running CARLA Simulator)
 
 For applying MPC on the collected data in offline mode in order to obtain the final dataset for training, simply use:
