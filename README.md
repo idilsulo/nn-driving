@@ -12,7 +12,7 @@ Lateral Vehicle Control without Explicit Supervision**.
 
 ## Installation
 
-The main `vehicle control` component of this repository requires Python 3.7 for interacting with CARLA 9.10, and uses `pip` for managing the packages. To create a `pip` virtual environment and load the necessary packages in order to execute this repository, please use the following command:
+The main `vehicle-control` component of this repository requires Python 3.7 for interacting with CARLA 9.10, and uses `pip` for managing the packages. To create a `pip` virtual environment and load the necessary packages in order to execute this repository, please use the following command:
 
 ```
 cd vehicle-control/
@@ -21,7 +21,7 @@ source env/bin/activate             # Activate virtual environment
 pip install -r requirements.txt     # Load packages from requirements.txt
 ```
 
-Installation details regarding other related components are provided in their respective subdirectories.
+In order to train a network with supervision, MPC and neural network components provided under `vehicle-control` would suffice. However, our framework takes advantage of two additional components, namely `view-synthesis` and `orb-slam2`. The installation details and the individual licenses for these components are provided in their respective subdirectories. 
 
 ## Running CARLA Simulator
 We use CARLA simulator version 9.10, for data collection and training. For installation of CARLA 9.10, you can refer [here](https://github.com/carla-simulator/carla).
