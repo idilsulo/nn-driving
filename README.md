@@ -1,7 +1,6 @@
-# A Framework for Learning Vision Based Autonomous Lateral Vehicle Control without Explicit Supervision
+# Learning Vision Based Autonomous Lateral Vehicle Control without Supervision 
 
-This repository contains the code for the paper **A Framework for Learning Vision Based Autonomous
-Lateral Vehicle Control without Explicit Supervision**.
+This repository contains the code for the paper **Learning Vision Based Autonomous Lateral Vehicle Control without Supervision**.
 
 ![Overview of framework](/assets/images/overview-diagram.png)
 
