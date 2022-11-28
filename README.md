@@ -212,7 +212,7 @@ The inference script calculates a score for the ratio of time the car remains in
 If you find the repository useful, please cite us as
 ```bibtex
 @article{khan2022vehiclecontrol,
- title  = {A Framework for Learning Vision Based Autonomous Lateral Vehicle Control without Explicit Supervision},
+ title  = {Learning Vision Based Autonomous Lateral Vehicle Control without Supervision},
  author = {Qadeer Khan, Idil Sülo, Melis Ocal and Daniel Cremers},
  year   = {2022},
 }
