@@ -1,11 +1,11 @@
 # Learning Vision Based Autonomous Lateral Vehicle Control without Supervision 
 
-This repository contains the code for the paper **Learning Vision Based Autonomous Lateral Vehicle Control without Supervision**.
+This repository contains the code for the paper **[Learning Vision Based Autonomous Lateral Vehicle Control without Supervision](https://link.springer.com/article/10.1007/s10489-023-04478-8)**.
 
 ![Overview of framework](/assets/images/overview-diagram.png)
 
 <div align="center">
-<a href="./assets/supplementary/supplementary.pdf">Supplementary</a> | <a href="./assets/supplementary/video.mp4">Video</a>
+<a href="https://link.springer.com/article/10.1007/s10489-023-04478-8">Paper</a> | <a href="./assets/supplementary/supplementary.pdf">Supplementary</a> | <a href="./assets/supplementary/video.mp4">Video</a>
 </div>
 
 
